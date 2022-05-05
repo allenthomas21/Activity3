@@ -8,7 +8,7 @@ int sum();
 
 int main(){
     char str[100];
-    printf("Enter your name: ");
+    printf("Enter the word: ");
     scanf("%s",str);
     ascii(str);
     sum(str);
